@@ -1,0 +1,43 @@
+.bookmark-button {
+  align-items: center;
+}
+.button {
+  text-decoration: none;
+  padding: 8px 3px;
+  font-size: 100%;
+  position: relative;
+  margin: 32px;
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+.button::after,
+.button::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  background: #000;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+.button:hover {
+  transform: translate(-12px, -12px);
+}
+.button:after {
+  transform: translate(6px, 6px);
+}
+.button:before {
+  transform: translate(12px, 12px);
+}
+.footer-button {
+  margin-left: 7%;
+  margin-right: 7%;
+  border: 5px;
+  background-color: #fff;
+}
