@@ -9,4 +9,12 @@
 body {
   height: 100%;
   font-weight: 400;
+  width: 100%;
+}
+a:hover {
+  color: brown;
+}
+body.dark {
+  background-color: rgb(50, 51, 58);
+  color: rgb(0, 0, 0);
 }
