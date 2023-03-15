@@ -1,0 +1,7 @@
+#footer {
+  border-top: 1px groove;
+  background: #fff;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
